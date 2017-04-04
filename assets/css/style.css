@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    margin-top: 200px;
+   }
+#titulo{
+  font-family: 'Orbitron', sans-serif;
+  color:#E42D40;
+  font-size: 60px;
+}
+.texto1{
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+.texto2{
+  font-family: 'Acme', sans-serif;
+  font-size: bold;
+    font-size: 20px;
+
+}
+#button1{
+  margin:20px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+#button1:hover {background-color: #142b3b}
+
+#button1:active {
+  background-color: #e42d40;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
